@@ -14,7 +14,7 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/Dragoon_Music_BotZehra_Music_Bot?startgroup=true"
+                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/Zehra_Music_Bot?startgroup=true"
                     )
                 ],
                 [
