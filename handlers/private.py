@@ -8,21 +8,21 @@ from helpers.filters import command, other_filters2
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]))
 async def start(_, message: Message):
                 await message.reply_photo(
-                "https://te.legra.ph/file/db6c6724ce086aaa61dc6.jpg",
-                caption=(f"""**Salam {message.from_user.mention} 🎵\nMən {bot}!\nSəsli söhbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yetkisi verib, Asistanı qrupa əlavə edin.\n\nSahibəm👉  [Zəhra](https://t.me/uzaq_durrr)**"""),
+                "https://te.legra.ph/file/d152f7de679af47d5eec5.jpg" ,
+                caption=(f"""**Salam {message.from_user.mention} 🎵\nMən {bot}!\nSəsli söhbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yetkisi verib, Asistanı qrupa əlavə edin.\n\nHostessim👉  [Aysmeh](https://t.me/Akameiyy)**"""),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/Zehra_Music_Bot?startgroup=true"
+                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/akameiyy_bot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/ZehraMusicAsistant"
+                        "🔊 Asistan", url="https://t.me/Akameiyyy_asisstant"
                     ),
                     InlineKeyboardButton(
-                        "Support 💬", url="https://t.me/songedis"
+                        "Söhbət Qrupum 😍", url="https://t.me/WerabliAnlar"
                     )
                 ],
                 [
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "🧩 Əmrlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Rəsmi Kanal 🇦🇿", url=f"https://t.me/SonGecemiz"
+                        "Rəsmi Kanal 🍷", url=f"https://t.me/WerabliAnlarr"
                     )
                 ]
                 
@@ -47,7 +47,7 @@ async def bilgi(_, message: Message):
              [
                  [
                      InlineKeyboardButton(
-                         "🔴 İstifatəçi Əmrləri", callback_data="herkes")
+                         "🔴 İstifatəçi Əmrləri", callback_data="hərkəs")
                  ],[                     
                      InlineKeyboardButton(
                          "⚫ Admin  Əmrləri", callback_data="admin")
@@ -56,7 +56,7 @@ async def bilgi(_, message: Message):
                          "Geri 🔄", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "Sahibəm🇦🇿", url="https://t.me/uzaq_durrr")
+                         "Hostessim 😍", url="https://t.me/Akameiyy")
                  ]
              ]
          )
@@ -70,11 +70,11 @@ async def cbbilgi(_, query: CallbackQuery):
       [
         [
           InlineKeyboardButton(
-            "✨ Hərkəs üçün əmrlər", callback_data ="herkes")
+            "✨ Hərkəs üçün əmrlər", callback_data ="hərkəs")
         ],
         [
           InlineKeyboardButton(
-            "👑 Admin əmrləri",callback_data ="admin")
+            "🍷 Admin əmrləri",callback_data ="admin")
         ],
         [
           InlineKeyboardButton(
@@ -82,7 +82,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "Sahibəm 🇦🇿", url="https://t.me/uzaq_durrr")
+            "Hostessim 😍", url="https://t.me/Akameiyy")
         ]
       ]
      ))
@@ -95,7 +95,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "Sahibəm 🇦🇿", url="https://t.me/uzaq_durrr")
+                         "Hostessim 😍", url="https://t.me/Akameiyy")
                  ],
                  [
                      InlineKeyboardButton(
@@ -113,7 +113,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "Sahibəm 🇦🇿", url="https://t.me/uzaq_durrr")
+                         "Hostessim 😍", url="https://t.me/Akameiyy")
                  ],
                  [
                      InlineKeyboardButton(
@@ -126,20 +126,20 @@ async def admin(_, query: CallbackQuery):
 
 @Client.on_callback_query(filters.regex("cbstart"))
 async def cbstart(_, query: CallbackQuery):
-    await query.edit_message_text(f"""**Salam {query.from_user.mention} 🎵\nMən {bot}!\nSəsli sohbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yönətim yetki verib, Asistanı qrupa əlavə edin.\n\nSahibəm👉  [Zəhra](https://t.me/uzaq_durrr)**""",
+    await query.edit_message_text(f"""**Salam {query.from_user.mention} 🎵\nMən {bot}!\nSəsli sohbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yönətim yetki verib, Asistanı qrupa əlavə edin.\n\nHostessim👉  [Aysmeh](https://t.me/Akameiyy)**""",
          reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/Zehra_Music_Bot?startgroup=true"
+                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/akameiyy_Bot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/ZehraMusicAsistant"
+                        "🔊 Asistan", url="https://t.me/Akameiyyy_asisstant"
                     ),
                     InlineKeyboardButton(
-                        "Support 💬", url="https://t.me/songedis"
+                        "Söhbət Qrupum 🙈", url="https://t.me/WerabliAnlar"
                     )
                 ],
                 [
@@ -147,7 +147,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🧩 Əmrlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Rəsmi Kanal 🇦🇿", url=f"https://t.me/songedis"
+                        "Rəsmi Kanal 🍷", url=f"https://t.me/WerabliAnlarr"
                     )
                 ]
                 
