@@ -109,7 +109,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "ZehraMusicAsistant"
+        user.first_name = "Akameiyyy_asisstant"
     usar = user
     wew = usar.id
     try:
@@ -198,8 +198,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🚀 Support", url=f"https://t.me/SonGecemiz"),
-                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/songedis"),
+                InlineKeyboardButton("🚀 Support", url=f"https://t.me/WerabliAnlar"),
+                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/WerabliAnlarr"),
             ],[
                 InlineKeyboardButton("📲 Bağla", callback_data="cls"),
             ],
@@ -207,7 +207,7 @@ async def play(_, message: Message):
     )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://i.ibb.co/Qkz78hx/images-1.jpg"
+            thumb_name = "https://te.legra.ph/file/d152f7de679af47d5eec5.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -263,8 +263,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🚀 Support", url=f"https://t.me/SonGecemiz"),
-                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/songedis"),
+                InlineKeyboardButton("🚀 Support", url=f"https://t.me/WerabliAnlar"),
+                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/WerabliAnlarr"),
             ],[
                 InlineKeyboardButton("📲 Bağla", callback_data="cls"),
             ],
