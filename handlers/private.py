@@ -47,7 +47,7 @@ async def bilgi(_, message: Message):
              [
                  [
                      InlineKeyboardButton(
-                         "🔴 İstifatəçi Əmrləri", callback_data="hərkəs")
+                         "🔴 İstifatəçi Əmrləri", callback_data="herkes")
                  ],[                     
                      InlineKeyboardButton(
                          "⚫ Admin  Əmrləri", callback_data="admin")
@@ -70,7 +70,7 @@ async def cbbilgi(_, query: CallbackQuery):
       [
         [
           InlineKeyboardButton(
-            "✨ Hərkəs üçün əmrlər", callback_data ="hərkəs")
+            "✨ Hərkəs üçün əmrlər", callback_data ="herkes")
         ],
         [
           InlineKeyboardButton(
