@@ -9,20 +9,20 @@ from helpers.filters import command, other_filters2
 async def start(_, message: Message):
                 await message.reply_photo(
                 "https://te.legra.ph/file/d152f7de679af47d5eec5.jpg" ,
-                caption=(f"""**Salam {message.from_user.mention} 🎵\nMən {bot}!\nSəsli söhbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yetkisi verib, Asistanı qrupa əlavə edin.\n\nHostessim👉  [Aysmeh](https://t.me/Akameiyy)**"""),
+                caption=(f"""**Salam {message.from_user.mention} 🎵\nMən {bot}!\nSəsli söhbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yetkisi verib, Asistanı qrupa əlavə edin.\n\nSahibim👉  [𓄂𝙰𝚂𝙾🇦🇿 『᭙Ҩ』❉͜͡➣ࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩ🦁𝕋𝕚𝔾𝕣](https://t.me/ismiyev95)**"""),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/akameiyy_bot?startgroup=true"
+                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/ASOmusicbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/Akameiyyy_asisstant"
+                        "🔊 Asistan", url="https://t.me/ASOmusic_asisstant"
                     ),
                     InlineKeyboardButton(
-                        "Söhbət Qrupum 🙈", url="https://t.me/WerabliAnlar"
+                        "𓄂𝙰𝚂𝙾|🇦🇿 𝙊𝙒𝙉𝙀𝙍 🙋🏻‍♂️", url="https://t.me/ismiyev95"
                     )
                 ],
                 [
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "🧩 Əmrlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Rəsmi Kanal 🍷", url=f"https://t.me/WerabliAnlarr"
+                        "ASO Rəsmi 🇦🇿", url=f"https://t.me/ASOresmi"
                     )
                 ]
                 
@@ -56,7 +56,7 @@ async def bilgi(_, message: Message):
                          "Geri 🔄", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "Hostessim 😍", url="https://t.me/Akameiyy")
+                         "𓄂𝙰𝚂𝙾|🇦🇿 𝙊𝙒𝙉𝙀𝙍 🙋🏻‍♂️", url="https://t.me/ismiyev95")
                  ]
              ]
          )
@@ -82,7 +82,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "Hostessim 😍", url="https://t.me/Akameiyy")
+            "𓄂𝙰𝚂𝙾|🇦🇿 𝙊𝙒𝙉𝙀𝙍 🙋🏻‍♂️", url="https://t.me/ismiyev95")
         ]
       ]
      ))
@@ -95,7 +95,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "Hostessim 😍", url="https://t.me/Akameiyy")
+                         "𓄂𝙰𝚂𝙾|🇦🇿 𝙊𝙒𝙉𝙀𝙍🙋🏻‍♂️", url="https://t.me/Akameiyy")
                  ],
                  [
                      InlineKeyboardButton(
@@ -113,7 +113,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "Hostessim 😍", url="https://t.me/Akameiyy")
+                         "𓄂𝙰𝚂𝙾|🇦🇿 𝙊𝙒𝙉𝙀𝙍 🙋🏻‍♂️", url="https://t.me/ismiyev95")
                  ],
                  [
                      InlineKeyboardButton(
@@ -126,20 +126,20 @@ async def admin(_, query: CallbackQuery):
 
 @Client.on_callback_query(filters.regex("cbstart"))
 async def cbstart(_, query: CallbackQuery):
-    await query.edit_message_text(f"""**Salam {query.from_user.mention} 🎵\nMən {bot}!\nSəsli sohbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yönətim yetki verib, Asistanı qrupa əlavə edin.\n\nHostessim👉  [Aysmeh](https://t.me/Akameiyy)**""",
+    await query.edit_message_text(f"""**Salam {query.from_user.mention} 🎵\nMən {bot}!\nSəsli sohbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yönətim yetki verib, Asistanı qrupa əlavə edin.\n\n𓄂𝙰𝚂𝙾|🇦🇿 𝙊𝙒𝙉𝙀𝙍👉  [𓄂𝙰𝚂𝙾🇦🇿 『᭙Ҩ』❉͜͡➣ࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩࠩ🦁𝕋𝕚𝔾𝕣](https://t.me/ismiyev95)**""",
          reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/akameiyy_Bot?startgroup=true"
+                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/ASOmusicbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/Akameiyyy_asisstant"
+                        "🔊 Asistan", url="https://t.me/ASOmusic_asisstant"
                     ),
                     InlineKeyboardButton(
-                        "Söhbət Qrupum 🙈", url="https://t.me/WerabliAnlar"
+                        "ASO Rəsmi 🇦🇿", url="https://t.me/ASOresmi"
                     )
                 ],
                 [
@@ -147,7 +147,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🧩 Əmrlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Rəsmi Kanal 🍷", url=f"https://t.me/WerabliAnlarr"
+                        "ASO Rəsmi 🇦🇿", url=f"https://t.me/ASOresmi"
                     )
                 ]
                 
