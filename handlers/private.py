@@ -95,7 +95,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "𓄂𝙰𝚂𝙾|🇦🇿 𝙊𝙒𝙉𝙀𝙍🙋🏻‍♂️", url="https://t.me/Akameiyy")
+                         "𓄂𝙰𝚂𝙾|🇦🇿 𝙊𝙒𝙉𝙀𝙍🙋🏻‍♂️", url="https://t.me/ismiyev95")
                  ],
                  [
                      InlineKeyboardButton(
