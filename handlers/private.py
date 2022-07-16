@@ -22,7 +22,7 @@ async def start(_, message: Message):
                         "🔊 Asistan", url="https://t.me/ASOmusic_asisstant"
                     ),
                     InlineKeyboardButton(
-                        "𓄂𝙰𝚂𝙾|🇦🇿 𝙊𝙒𝙉𝙀𝙍 🙋🏻‍♂️", url="https://t.me/ismiyev95"
+                        "Sohbet Qrupu", url="https://t.me/WerabliAnlar"
                     )
                 ],
                 [
@@ -56,7 +56,7 @@ async def bilgi(_, message: Message):
                          "Geri 🔄", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "𓄂𝙰𝚂𝙾|🇦🇿 𝙊𝙒𝙉𝙀𝙍 🙋🏻‍♂️", url="https://t.me/ismiyev95")
+                         "Sohbet Qrupu ✈️", url="https://t.me/WerabliAnlar")
                  ]
              ]
          )
@@ -82,7 +82,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "𓄂𝙰𝚂𝙾|🇦🇿 𝙊𝙒𝙉𝙀𝙍 🙋🏻‍♂️", url="https://t.me/ismiyev95")
+            "Sohbet Qrupu ✈️", url="https://t.me/WerabliAnlar")
         ]
       ]
      ))
@@ -95,7 +95,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "𓄂𝙰𝚂𝙾|🇦🇿 𝙊𝙒𝙉𝙀𝙍🙋🏻‍♂️", url="https://t.me/ismiyev95")
+                         "Sohbet Qrupu ✈️", url="https://t.me/WerabliAnlar")
                  ],
                  [
                      InlineKeyboardButton(
@@ -113,7 +113,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "𓄂𝙰𝚂𝙾|🇦🇿 𝙊𝙒𝙉𝙀𝙍 🙋🏻‍♂️", url="https://t.me/ismiyev95")
+                         "Sohbet Qrupu ✈️", url="https://t.me/WerabliAnlar")
                  ],
                  [
                      InlineKeyboardButton(
@@ -136,7 +136,7 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/ASOmusic_asisstant"
+                        "🔊 Asistan", url="https://t.me/ASOmusic_asisstan"
                     ),
                     InlineKeyboardButton(
                         "ASO Rəsmi 🇦🇿", url="https://t.me/ASOresmi"
