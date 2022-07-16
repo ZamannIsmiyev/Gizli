@@ -87,12 +87,12 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     os.remove("background.png")
 
 
-# ==================================EfsaneVaves======================================================== 
+# ==================================ASOMusicbot======================================================== 
 @Client.on_callback_query(filters.regex("cls"))
 async def cls(_, query: CallbackQuery):
     await query.message.delete()
 
-# EfsaneMusicVaves düzenlenmiştir.
+# ASOmusicbot düzenlenmiştir.
 
 @Client.on_message(command(["play", "oynat"]) 
                    & filters.group
@@ -109,7 +109,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Akameiyyy_asisstant"
+        user.first_name = "ASOmusic_asisstan"
     usar = user
     wew = usar.id
     try:
@@ -198,8 +198,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🚀 𓄂𝙰𝚂𝙾|🇦🇿 𝙊𝙒𝙉𝙀𝙍", url=f"https://t.me/ismiyev95"),
-                InlineKeyboardButton("📣 ASO Rəsmi", url=f"https://t.me/ASOresmi"),
+                InlineKeyboardButton("Sohbet Qrupu ✈️", url=f"https://t.me/ismiyev95"),
+                InlineKeyboardButton("ASO🇦🇿Rəsmi 📣", url=f"https://t.me/ASOresmi"),
             ],[
                 InlineKeyboardButton("📲 Bağla", callback_data="cls"),
             ],
@@ -263,8 +263,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🚀 𓄂𝙰𝚂𝙾|🇦🇿 𝙊𝙒𝙉𝙀𝙍", url=f"https://t.me/ismiyev95"),
-                InlineKeyboardButton("📣 ASO Rəsmi ", url=f"https://t.me/ASOresmi"),
+                InlineKeyboardButton("Sohbet Qrupu ✈️", url=f"https://t.me/ismiyev95"),
+                InlineKeyboardButton("ASO🇦🇿Rəsmi 📣", url=f"https://t.me/ASOresmi"),
             ],[
                 InlineKeyboardButton("📲 Bağla", callback_data="cls"),
             ],
